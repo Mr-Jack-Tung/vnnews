@@ -9,13 +9,13 @@ from bs4 import BeautifulSoup
 # import io
 
 # Function for common purposes
-def url_extract (url, key, class='', type='link', bs_on=True, user_agent='Mozilla/5.0 (Windows NT 10.0; WOW64; rv:11.0) Gecko/20100101'):
+def url_extract (url, key, tag_class ='', type='link', bs_on=True, user_agent='Mozilla/5.0 (Windows NT 10.0; WOW64; rv:11.0) Gecko/20100101'):
     """
     Extract article info from a news source using BeautifulSoup to pull data from HTML/XML web page.
     Args:
         url (:obj:`str`, required): url of the target news source. Eg. 'https://cafef.vn/'
         key (:obj:`str`, required): HTML tag which contains the information that you want to extract. Eg. 'h3', 'article', 'div'
-        class (:obj:`str`, required): The HTML class attribute specifies one or more class names for an element. Eg. 'pdate' in the tag <span class="pdate">19-11-2022 - 15:32 PM </span> on CafeF.
+        tag_class (:obj:`str`, required): The HTML class attribute specifies one or more class names for an element. Eg. 'pdate' in the tag <span class="pdate">19-11-2022 - 15:32 PM </span> on CafeF.
         type (:obj:`str`, optional): 'link' as default to extract only the article link from a news homepage. Use blank value `''` when extracting article detail on the article page.
         bs_on (:obj:`str`, optional): `True` as default. Input blank `''` when the issue is raised.
         user_agent (:obj:`str`, optional): The default value for Desktop has been provided. You can find more user agent value here: https://developers.whatismybrowser.com/useragents/explore/operating_system_name/
@@ -27,10 +27,10 @@ def url_extract (url, key, class='', type='link', bs_on=True, user_agent='Mozill
     html = urllib.request.urlopen(request)
     bs = BeautifulSoup(html.read(), 'lxml')
     try:
-        if class == '':
+        if tag_class == '':
             container = bs.find_all(key)
         else:
-            container = bs.find_all(key, {'class':f'{class}'})
+            container = bs.find_all(key, {'class':f'{tag_class}'})
         output, title, ext_order = extract_data(container, type, bs, bs_on)
         order = 'try'
     except:
