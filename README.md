@@ -3,8 +3,8 @@ A Python package that helps capture news updates from top Vietnamese news sites
 
 # II. REFERENCES
 ## 2.1. How to install this package?
-- You can install the latest `vnnews-catcher` version from source with the following command:
-`pip install git+https://github.com/thinh-vu/vnnews-catcher.git@main`
+- You can install the latest `vnnews` version from source with the following command:
+`pip install git+https://github.com/thinh-vu/vnnews.git@main`
 
 _(*) You might need to insert a `!` before your command when running terminal commands on Google Colab._
 

@@ -6,7 +6,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ur_audio_sub"
+name = "vnnews"
 description = "A Python package that helps capture news updates from top Vietnamese news sites"
 version = "0.0.1"
 readme = "README.md"
