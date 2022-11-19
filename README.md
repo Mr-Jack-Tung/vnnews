@@ -81,49 +81,45 @@ _(*) You might need to insert a `!` before your command when running terminal co
 9.  [Nhịp cầu đầu tư](https://nhipcaudautu.vn/)
    - Get the list of article urls:  `url_extract('https://m.nhipcaudautu.vn/kinh-doanh/', key='article', type='link', bs_on='', user_agent='Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X)')`
    - Extract article details: `url_extract('https://m.nhipcaudautu.vn/ti-le-don-bay-tai-chinh-toan-thi-truong-giam-dan-tu-quy-i-3348999/', key='span', tag_class='date-post', type='')`
-
-<details>
-    <summary> More</summary>
-      1.  [Diễn đàn doanh nghiệp](https://diendandoanhnghiep.vn/)
-      - Get the list of article urls:  `url_extract('https://diendandoanhnghiep.vn/', key='h3', type='link', bs_on='')`
-      - Extract article details: `url_extract('https://diendandoanhnghiep.vn/https-diendandoanhnghiep-vn-dien-mat-troi-mai-nha-can-hoan-thien-co-che-ho-tro-doanh-nghiep-phat-trien-225626-html-e313.html', key='span', tag_class='created_time', type='')`
-      1.  [Diễn đàn kinh tế Việt Nam - Vietnamnet](https://vef.vn/)
-      - Get the list of article urls:  `url_extract('https://vef.vn/diem-nong/', key='article', type='link', bs_on='')`
-      - Extract article details: ``
-      1.  [Forbes Việt Nam](https://forbes.vn/)
-      - Get the list of article urls:  `url_extract('https://forbes.vn', key='h3', type='link', bs_on='')`
-      - Extract article details: `url_extract('https://forbes.vn/m-village-cua-nguyen-hai-ninh-xay-lang-trong-pho/', key='div', tag_class='forbes-single__heading-time', type='')`
-      1.  [Vietstock](https://vietstock.vn/)
-      - Get the list of article urls:  `url_extract('https://vietstock.vn/', key='h4', type='link', bs_on='')`
-      - Extract article details: `url_extract('https://vietstock.vn/2022/11/thieu-hut-iphone-14-nguoi-dung-viet-lua-chon-iphone-doi-cu-4264-1017483.htm', key='span', tag_class='date', type='')`
-      1.  [Tin nhanh chứng khoán](https://www.tinnhanhchungkhoan.vn/)
-      - Get the list of article urls: Doesn't work `url_extract('https://m.tinnhanhchungkhoan.vn/', key='h2', type='link', bs_on='')`
-      - Extract article details: `url_extract('https://www.tinnhanhchungkhoan.vn/big-trends-sau-con-mua-troi-lai-sang-post310328.html', key='time', tag_class='', type='')`
-      1.  [Cafe Land](https://cafeland.vn/)
-      - Get the list of article urls:  `url_extract('https://cafeland.vn/', key='h3', type='link', bs_on='')`
-      - Extract article details: `url_extract('https://cafeland.vn/phan-tich/bien-doi-khi-hau-dang-leo-thang-nhung-doanh-nghiep-chu-yeu-doi-pho-114941.html', key='div', tag_class='info-date right', type='')`
-      1.  [Kenh14](https://kenh14.vn/)
-      - Get the list of article urls:  `url_extract('https://m.kenh14.vn/doi-song.chn', key='h3', type='link')`
-      - Extract article details: `url_extract('https://m.kenh14.vn/phia-sau-nhung-gen-z-okela-co-luc-that-bai-co-luc-khong-on-lam-nhung-chua-bao-gio-ngung-no-luc-20221119153833146.chn', key='span', tag_class='kbwcm-time', type='')`
-      1.  [Dân trí](https://dantri.com.vn/)
-      - Get the list of article urls:  `url_extract('https://dantri.com.vn/', key='h3', type='link', bs_on='')`
-      - Extract article details: `url_extract('https://dantri.com.vn/the-gioi/moscow-cao-buoc-ukraine-kich-dong-xung-dot-quan-su-nga-nato-20221119145209276.htm', key='time', tag_class='author-time', type='')`
-      1.  [Thanh niên](https://thanhnien.vn/)
-      - Get the list of article urls:  ``
-      - Extract article details: ``
-      1.  [Vietnamnet](http://vietnamnet.vn/)
-      - Get the list of article urls:  ``
-      - Extract article details: ``
-      1.  [Nhân dân điện tử](http://www.nhandan.com.vn/)
-      - Get the list of article urls:  ``
-      - Extract article details: ``
-      1.  [Lao động](http://laodong.com.vn/)
-      - Get the list of article urls:  ``
-      - Extract article details: ``
-      1.  [Đời sống & pháp luật](http://www.doisongphapluat.com/)
-      - Get the list of article urls:  ``
-      - Extract article details: ``
-</details>
+10.  [Diễn đàn doanh nghiệp](https://diendandoanhnghiep.vn/)
+     - Get the list of article urls:  `url_extract('https://diendandoanhnghiep.vn/', key='h3', type='link', bs_on='')`
+     - Extract article details: `url_extract('https://diendandoanhnghiep.vn/https-diendandoanhnghiep-vn-dien-mat-troi-mai-nha-can-hoan-thien-co-che-ho-tro-doanh-nghiep-phat-trien-225626-html-e313.html', key='span', tag_class='created_time', type='')`
+11.  [Diễn đàn kinh tế Việt Nam - Vietnamnet](https://vef.vn/)
+     - Get the list of article urls:  `url_extract('https://vef.vn/diem-nong/', key='article', type='link', bs_on='')`
+     - Extract article details: ``
+12. [Forbes Việt Nam](https://forbes.vn/)
+    - Get the list of article urls:  `url_extract('https://forbes.vn', key='h3', type='link', bs_on='')`
+    - Extract article details: `url_extract('https://forbes.vn/m-village-cua-nguyen-hai-ninh-xay-lang-trong-pho/', key='div', tag_class='forbes-single__heading-time', type='')`
+13.  [Vietstock](https://vietstock.vn/)
+     - Get the list of article urls:  `url_extract('https://vietstock.vn/', key='h4', type='link', bs_on='')`
+     - Extract article details: `url_extract('https://vietstock.vn/2022/11/thieu-hut-iphone-14-nguoi-dung-viet-lua-chon-iphone-doi-cu-4264-1017483.htm', key='span', tag_class='date', type='')`
+14. [Tin nhanh chứng khoán](https://www.tinnhanhchungkhoan.vn/)
+    - Get the list of article urls: Doesn't work `url_extract('https://m.tinnhanhchungkhoan.vn/', key='h2', type='link', bs_on='')`
+    - Extract article details: `url_extract('https://www.tinnhanhchungkhoan.vn/big-trends-sau-con-mua-troi-lai-sang-post310328.html', key='time', tag_class='', type='')`
+15. [Cafe Land](https://cafeland.vn/)
+    - Get the list of article urls:  `url_extract('https://cafeland.vn/', key='h3', type='link', bs_on='')`
+    - Extract article details: `url_extract('https://cafeland.vn/phan-tich/bien-doi-khi-hau-dang-leo-thang-nhung-doanh-nghiep-chu-yeu-doi-pho-114941.html', key='div', tag_class='info-date right', type='')`
+16. [Kenh14](https://kenh14.vn/)
+    - Get the list of article urls:  `url_extract('https://m.kenh14.vn/doi-song.chn', key='h3', type='link')`
+    - Extract article details: `url_extract('https://m.kenh14.vn/phia-sau-nhung-gen-z-okela-co-luc-that-bai-co-luc-khong-on-lam-nhung-chua-bao-gio-ngung-no-luc-20221119153833146.chn', key='span', tag_class='kbwcm-time', type='')`
+17. [Dân trí](https://dantri.com.vn/)
+    - Get the list of article urls:  `url_extract('https://dantri.com.vn/', key='h3', type='link', bs_on='')`
+    - Extract article details: `url_extract('https://dantri.com.vn/the-gioi/moscow-cao-buoc-ukraine-kich-dong-xung-dot-quan-su-nga-nato-20221119145209276.htm', key='time', tag_class='author-time', type='')`
+18. [Thanh niên](https://thanhnien.vn/)
+    - Get the list of article urls:  ``
+    - Extract article details: ``
+19. [Vietnamnet](http://vietnamnet.vn/)
+    - Get the list of article urls:  ``
+    - Extract article details: ``
+20. [Nhân dân điện tử](http://www.nhandan.com.vn/)
+    - Get the list of article urls:  ``
+    - Extract article details: ``
+21. [Lao động](http://laodong.com.vn/)
+    - Get the list of article urls:  ``
+    - Extract article details: ``
+22. [Đời sống & pháp luật](http://www.doisongphapluat.com/)
+    - Get the list of article urls:  ``
+    - Extract article details: ``
 
 # III. APENDICES
 - [Demo video](https://youtu.be/S_Jx_TgSTTw): How to select the key 
