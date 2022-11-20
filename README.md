@@ -1,8 +1,16 @@
 # vnnews crawler
 A Python package that helps crawl updates from top Vietnamese news providers.
 
+---
+<div id="badges" align="center">
+<img src="https://img.shields.io/pypi/pyversions/vnnews?logoColor=brown&style=plastic" alt= "Version"/>
+<img src="https://img.shields.io/pypi/dm/vnnews" alt="Download Badge"/>
+<img src="https://img.shields.io/github/last-commit/thinh-vu/vnnews" alt="Commit Badge"/>
+<img src="https://img.shields.io/github/license/thinh-vu/vnnews?color=red" alt="License Badge"/>
+</div>
+
 # II. REFERENCES
-## 2.1. How to install this package?
+## 2.1. How to use this package?
 - You can install the latest `vnnews` crawler version from source with the following command:
 `pip install git+https://github.com/thinh-vu/vnnews.git@main`
 
@@ -10,8 +18,7 @@ _(*) You might need to insert a `!` before your command when running terminal co
 
 - To start using functions, you need to import them: `from vnnews import *`
 
-
-## List of Popular Online news for investors
+## 2.2. List of Popular Online news for investors
 1. [VN Express](https://vnexpress.net/)
 2. [Tuổi trẻ Online](https://tuoitre.vn/)
 3. [CafeF](https://cafef.vn/)
@@ -35,7 +42,7 @@ _(*) You might need to insert a `!` before your command when running terminal co
 21. [Lao động](http://laodong.com.vn/)
 22. [Đời sống & pháp luật](http://www.doisongphapluat.com/)
 
-## Function references
+## 2.3. Function references
 
 - `url_extract (url, key, tag_class='', type='link', bs_on=True, user_agent='Mozilla/5.0 (Windows NT 10.0; WOW64; rv:11.0) Gecko/20100101')`
     - Purpose: Extract article info from a news source using BeautifulSoup to pull data from HTML/XML web page.
@@ -53,7 +60,7 @@ _(*) You might need to insert a `!` before your command when running terminal co
     - host (:obj:`str`, required): the host name of the news source. Eg. 'https://vneconomy.vn
     - url (:obj:`str`, required): the url string of the target news source. This might not contain the host at the beginning. Eg. '/de-viet-nam-thanh-digital-hub-cua-khu-vuc-vao-nam-2030-e290.htm'
 
-## Let's get our hands dirty
+## 2.4. Let's get our hands dirty
 1. [VN Express](https://vnexpress.net/)
    - Get the list of article urls: `url_extract('https://vnexpress.net/kinh-doanh', key='h3')`
    - Extract article details: `url_extract('https://vnexpress.net/thuong-mai-va-dau-tu-ben-vung-se-giup-apec-ung-pho-nguy-co-suy-thoai-4538015.html', key='span', tag_class='date', type='')`
@@ -128,8 +135,20 @@ _(*) You might need to insert a `!` before your command when running terminal co
 # IV. 🙋‍♂️ CONTACT INFORMATION
 You can contact me at one of my social network profiles:
 
-- 💼 LinkedIn: https://linkedin.com/in/thinh-vu
-- :octocat: GitHub: https://github.com/thinh-vu
+<div id="badges" align="center">
+  <a href="https://www.linkedin.com/in/thinh-vu">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://www.messenger.com/t/mr.thinh.ueh">
+    <img src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white" alt="Messenger Badge"/>
+  <a href="https://www.youtube.com/channel/UCYgG-bmk92OhYsP20TS0MbQ">
+    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+  </a>
+    <a href="https://github.com/thinh-vu">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github Badge"/>
+  </a>
+</div>
 
 ---
 

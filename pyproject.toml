@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vnnews"
-description = "A Python package that helps capture news updates from top Vietnamese news sites"
+description = "A Python package that helps crawl updates from top Vietnamese news providers."
 version = "0.0.1"
 readme = "README.md"
 requires-python = ">=3.7"
