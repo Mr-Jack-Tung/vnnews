@@ -1,7 +1,6 @@
 # vnnews crawler
 A Python package that helps crawl updates from top Vietnamese news providers.
 
----
 <div id="badges" align="center">
 <img src="https://img.shields.io/pypi/pyversions/vnnews?logoColor=brown&style=plastic" alt= "Version"/>
 <img src="https://img.shields.io/pypi/dm/vnnews" alt="Download Badge"/>
@@ -29,6 +28,11 @@ _(*) You might need to insert a `!` before your command when running terminal co
 8. [Đầu tư Online](https://baodautu.vn/)
 9. [Nhịp cầu đầu tư](https://nhipcaudautu.vn/)
 10. [Diễn đàn doanh nghiệp](https://diendandoanhnghiep.vn/)
+
+
+<details><summary>See more</summary>
+<p>
+
 11. [Diễn đàn kinh tế Việt Nam - Vietnamnet](https://vef.vn/)
 12. [Forbes Việt Nam](https://forbes.vn/)
 13. [Vietstock](https://vietstock.vn/)
@@ -41,6 +45,11 @@ _(*) You might need to insert a `!` before your command when running terminal co
 20. [Nhân dân điện tử](http://www.nhandan.com.vn/)
 21. [Lao động](http://laodong.com.vn/)
 22. [Đời sống & pháp luật](http://www.doisongphapluat.com/)
+
+</p>
+</details>
+
+
 
 ## 2.3. Function references
 
@@ -73,6 +82,10 @@ _(*) You might need to insert a `!` before your command when running terminal co
 4. [Cafebiz](https://cafebiz.vn/)
    - Get the list of article urls:  `url_extract('https://cafebiz.vn/vi-mo.chn', key='h3', type='link', bs_on='')`
    - Extract article details: `url_extract('https://cafebiz.vn/tai-sao-nha-o-my-la-tai-san-con-o-nhat-ban-thi-lai-chang-khac-gi-hang-tieu-dung-176221119095831295.chn', key='span', tag_class='time', type='')`
+
+<details><summary>See more</summary>
+<p>
+
 5. [Kinh tế Sài Gòn Online](https://thesaigontimes.vn/)
    - Get the list of article urls:  `url_extract('https://thesaigontimes.vn/', key='h3', type='link', bs_on='')`
    - Extract article details: `url_extract('https://thesaigontimes.vn/kinh-te-tuan-hoan-mo-ra-nhung-mo-hinh-kinh-doanh-moi/', key='time', tag_class='', type='')`
@@ -127,6 +140,9 @@ _(*) You might need to insert a `!` before your command when running terminal co
 22. [Đời sống & pháp luật](http://www.doisongphapluat.com/)
     - Get the list of article urls:  ``
     - Extract article details: ``
+
+</p>
+</details>
 
 # III. APENDICES
 - [Demo video](https://youtu.be/S_Jx_TgSTTw): How to select the key 
