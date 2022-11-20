@@ -1,12 +1,15 @@
-# vnnews-catcher
-A Python package that helps capture news updates from top Vietnamese news sites
+# vnnews crawler
+A Python package that helps crawl updates from top Vietnamese news providers.
 
 # II. REFERENCES
 ## 2.1. How to install this package?
-- You can install the latest `vnnews` version from source with the following command:
+- You can install the latest `vnnews` crawler version from source with the following command:
 `pip install git+https://github.com/thinh-vu/vnnews.git@main`
 
 _(*) You might need to insert a `!` before your command when running terminal commands on Google Colab._
+
+- To start using functions, you need to import them: `from vnnews import *`
+
 
 ## List of Popular Online news for investors
 1. [VN Express](https://vnexpress.net/)
@@ -18,22 +21,19 @@ _(*) You might need to insert a `!` before your command when running terminal co
 7. [Pháp Luật Tp.HCM](https://plo.vn/)
 8. [Đầu tư Online](https://baodautu.vn/)
 9. [Nhịp cầu đầu tư](https://nhipcaudautu.vn/)
-<details>
-    <summary> More</summary>
-       10. [Diễn đàn doanh nghiệp](https://diendandoanhnghiep.vn/)
-       11. [Diễn đàn kinh tế Việt Nam - Vietnamnet](https://vef.vn/)
-       12. [Forbes Việt Nam](https://forbes.vn/)
-       13. [Vietstock](https://vietstock.vn/)
-       14. [Tin nhanh chứng khoán](https://www.tinnhanhchungkhoan.vn/)
-       15. [Cafe Land](https://cafeland.vn/)
-       16. [Kenh14](https://kenh14.vn/)
-       17. [Dân trí](https://dantri.com.vn/)
-       18. [Thanh niên](https://thanhnien.vn/)
-       19. [Vietnamnet](http://vietnamnet.vn/)
-       20. [Nhân dân điện tử](http://www.nhandan.com.vn/)
-       21. [Lao động](http://laodong.com.vn/)
-       22. [Đời sống & pháp luật](http://www.doisongphapluat.com/)
-</details>
+10. [Diễn đàn doanh nghiệp](https://diendandoanhnghiep.vn/)
+11. [Diễn đàn kinh tế Việt Nam - Vietnamnet](https://vef.vn/)
+12. [Forbes Việt Nam](https://forbes.vn/)
+13. [Vietstock](https://vietstock.vn/)
+14. [Tin nhanh chứng khoán](https://www.tinnhanhchungkhoan.vn/)
+15. [Cafe Land](https://cafeland.vn/)
+16. [Kenh14](https://kenh14.vn/)
+17. [Dân trí](https://dantri.com.vn/)
+18. [Thanh niên](https://thanhnien.vn/)
+19. [Vietnamnet](http://vietnamnet.vn/)
+20. [Nhân dân điện tử](http://www.nhandan.com.vn/)
+21. [Lao động](http://laodong.com.vn/)
+22. [Đời sống & pháp luật](http://www.doisongphapluat.com/)
 
 ## Function references
 
@@ -130,3 +130,9 @@ You can contact me at one of my social network profiles:
 
 - 💼 LinkedIn: https://linkedin.com/in/thinh-vu
 - :octocat: GitHub: https://github.com/thinh-vu
+
+---
+
+If you want to support my open-source projects, you can "buy me a coffee" via [Patreon](https://patreon.com/thinhvu?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator) or Momo e-wallet (VN). Your support will help to maintain my blog hosting fee & to develop high-quality content.
+
+![momo-qr](https://github.com/thinh-vu/vnstock/blob/main/src/momo-qr-thinhvu.jpeg?raw=true)
