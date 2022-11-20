@@ -13,7 +13,7 @@ A Python package that helps crawl updates from top Vietnamese news providers.
 ## 2.1. How to use this package?
 - You can install the latest `vnnews` crawler version from source with the following command:
 `pip install git+https://github.com/thinh-vu/vnnews.git@main`
-
+- Install the stable version: `pip install vnnews`
 _(*) You might need to insert a `!` before your command when running terminal commands on Google Colab._
 
 - To start using functions, you need to import them: `from vnnews import *`
