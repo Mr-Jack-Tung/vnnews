@@ -7,8 +7,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vnnews"
-description = "Useful gadgets for your python projects"
+description = "A Python package that helps crawl updates from top Vietnamese news providers."
 version = "0.0.1"
 readme = "README.md"
 requires-python = ">=3.7"
-dependencies = []
+dependencies = [
+                "urllib3",
+                "beautifulsoup4"
+                ]
