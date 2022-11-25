@@ -4,5 +4,4 @@
 __author__ = "Thinh Vu @thinh-vu in GitHub"
 __version__ = "0.0.1"
 
-from .util import *
-from .news_capture import *
+from .gadget import *
